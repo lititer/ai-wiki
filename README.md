@@ -1,12 +1,27 @@
 # 🧠 AI Wiki - 智能知识库
 
-> **知识应该被编译一次并保持最新，而不是每次查询时重新派生。**
-> — 灵感来自 Andrej Karpathy 的 LLM Wiki 概念
+> 知识应该被编译一次并保持最新，而不是每次查询重新派生。
+
+AI Wiki 是一个基于 AI 的智能知识库系统，灵感来自 Karpathy 的 LLM Wiki 理念。它将传统的"存储-检索"模式升级为"编译-复用"模式：通过 AI 自动提取概念、生成摘要、发现交叉引用，让知识沉淀为可复用的结构化资产，并通过 RAG 问答和语义搜索实现智能检索。
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16.3-blue)
 ![Python](https://img.shields.io/badge/Python-3.11-yellow)
+
+## ✨ 核心特性
+
+- 🤖 **RAG 智能问答** — 基于知识库内容回答问题，附来源引用与置信度
+- 📚 **知识编译** — 并发提取概念/摘要/标签/交叉引用，一键结构化
+- 🔍 **语义搜索** — 基于 embedding 的语义/关键词/混合三种模式
+- ✍️ **AI 写作助手** — 润色、续写、纠错、扩展，辅助知识创作
+- 🌐 **中英双语** — 完整 i18n 覆盖，无硬编码混杂
+- 🐳 **一键部署** — Docker Compose 拉起 PostgreSQL + FastAPI + Next.js
+- 🧪 **测试闭环** — pytest 单元测试 + Playwright E2E
+
+## 🛠️ 技术栈
+
+`Next.js 16` · `React 19` · `TypeScript` · `Tailwind CSS 4` · `FastAPI` · `SQLAlchemy` · `PostgreSQL` · `Anthropic 兼容 LLM`
 
 ## ✨ 功能特性
 

@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+coverage/
+
+# Docker
+docker-compose.override.yml
+
+# Misc
+*.pem
+*.key
+*.cert
+
+# Local AI/tooling workspace (private, not for upload)
+.claude/
+.serena/
+.spec-workflow/
+.playwright-mcp/
+frontend/CLAUDE.md
+frontend/AGENTS.md
+
+# Development screenshots (process debug images)
+*.png
+frontend/preview-*.png
+frontend/reverted-*.png
+docs/screenshots/
+
+# Build/test artifacts
+frontend/.next/
+frontend/node_modules/
+frontend/test-results/
+frontend/tsconfig.tsbuildinfo
+backend/.pytest_cache/
+backend/**/__pycache__/

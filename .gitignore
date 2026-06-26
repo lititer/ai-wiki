@@ -57,11 +57,11 @@ docker-compose.override.yml
 frontend/CLAUDE.md
 frontend/AGENTS.md
 
-# Development screenshots (process debug images)
+# Development screenshots (process debug images) - allow docs/screenshots for README
 *.png
 frontend/preview-*.png
 frontend/reverted-*.png
-docs/screenshots/
+!docs/screenshots/*.png
 
 # Build/test artifacts
 frontend/.next/

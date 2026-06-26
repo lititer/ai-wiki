@@ -34,6 +34,16 @@
 
 `Next.js 16` · `React 19` · `TypeScript` · `Tailwind CSS 4` · `FastAPI` · `SQLAlchemy` · `PostgreSQL` · `Anthropic 兼容 LLM`
 
+## 📸 界面预览
+
+| 首页 | 创建页面 | 语义搜索 |
+|:---:|:---:|:---:|
+| ![首页](docs/screenshots/01-homepage.png) | [![创建页面](docs/screenshots/02-create-page.png)](docs/screenshots/02-create-page.png) | [![语义搜索](docs/screenshots/03-search.png)](docs/screenshots/03-search.png) |
+
+| AI 问答 | 知识编译 | 页面列表 |
+|:---:|:---:|:---:|
+| [![AI 问答](docs/screenshots/04-ask.png)](docs/screenshots/04-ask.png) | [![知识编译](docs/screenshots/05-compile.png)](docs/screenshots/05-compile.png) | [![页面列表](docs/screenshots/06-pages-list.png)](docs/screenshots/06-pages-list.png) |
+
 ## ✨ 功能特性
 
 ### 🤖 四大 AI 功能
